@@ -1,4 +1,4 @@
-package objects;
+package shapes.behavior.behavior;
 
 public interface Framable{
     default void setThicknessFrame() {

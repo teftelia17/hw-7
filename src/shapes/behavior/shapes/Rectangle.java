@@ -1,6 +1,6 @@
-package objects;
+package shapes.behavior.shapes;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
 
     public String getName() {
@@ -9,19 +9,16 @@ public class Rectangle extends Shape{
 
 
     @Override
-    public void swap() {
-        super.swap();
+    public void horizontalSwap() {
+        super.horizontalSwap();
     }
 
     @Override
-    public void zoomIn() {
-        super.zoomIn();
+    public void verticalSwap() {
+        super.verticalSwap();
     }
 
-    @Override
-    public void zoomOut() {
-        super.zoomOut();
-    }
+
 
     @Override
     public void setThicknessFrame() {

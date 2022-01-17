@@ -1,10 +1,11 @@
-package objects;
+package shapes.behavior.behavior;
 
 public interface Positionable {
     default void setX() {
         System.out.println("x is ...");
     }
-    default void setY(){
+
+    default void setY() {
         System.out.println("y is ...");
     }
 }

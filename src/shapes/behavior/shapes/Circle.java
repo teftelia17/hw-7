@@ -1,25 +1,9 @@
-package objects;
+package shapes.behavior.shapes;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
 
     public String getName() {
         return "circle";
-    }
-
-
-    @Override
-    public void swap() {
-        super.swap();
-    }
-
-    @Override
-    public void zoomIn() {
-        super.zoomIn();
-    }
-
-    @Override
-    public void zoomOut() {
-        super.zoomOut();
     }
 
     @Override

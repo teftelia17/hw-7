@@ -1,4 +1,4 @@
-package objects;
+package shapes.behavior.behavior;
 
 public interface Shiftable {
     int setNewX();
