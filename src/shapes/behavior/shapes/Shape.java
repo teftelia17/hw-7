@@ -30,24 +30,22 @@ public abstract class Shape implements Positionable, Framable, Mirrorable, Scala
 
     @Override
     public void horizontalSwap() {
-        System.out.println("The "+getName()+" has been swapped horizontally");
+        System.out.println("The " + getName() + " has been swapped horizontally");
     }
 
     @Override
     public void verticalSwap() {
-        System.out.println("The "+getName()+" has been swapped vertically");
+        System.out.println("The " + getName() + " has been swapped vertically");
     }
 
     @Override
     public int zoomIn(int zoomPlus) {
-        System.out.println("The " + getName() + " has been zoomed In to");
         return originScale + zoomPlus;
     }
 
 
     @Override
     public int zoomOut(int zoomMinus) {
-        System.out.println("The " + getName() + " has been zoomed Out to");
-        return originScale - zoomMinus ;
+        return originScale - zoomMinus;
     }
 }
