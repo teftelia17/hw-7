@@ -18,6 +18,7 @@ public class ShapePrintName {
 
         Shape polygon = new Polygon();
         System.out.println(polygon.getName());
+        polygon.setThicknessFrame();
 
     }
 }

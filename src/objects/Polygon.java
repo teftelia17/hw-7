@@ -23,7 +23,7 @@ public class Polygon extends Shape{
 
     @Override
     public void setThicknessFrame() {
-
+        super.setThicknessFrame();
     }
 
     @Override
