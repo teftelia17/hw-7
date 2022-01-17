@@ -1,9 +1,6 @@
 package output;
 
-import objects.Ellipse;
-import objects.Quad;
-import objects.Rectangle;
-import objects.Shape;
+import objects.*;
 
 public class ShapePrintName {
     public static void main(String[] args) {
@@ -12,12 +9,12 @@ public class ShapePrintName {
 
         Shape ellipse = new Ellipse();
         System.out.println(ellipse.getName());
-        ellipse.swap();
-        ellipse.setThicknessFrame();
 
         Shape quad = new Quad();
         System.out.println(quad.getName());
-        quad.setThicknessFrame();
+
+        Shape circle = new Circle();
+        System.out.println(circle.getName());
 
     }
 }
