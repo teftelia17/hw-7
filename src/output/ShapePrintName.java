@@ -16,5 +16,8 @@ public class ShapePrintName {
         Shape circle = new Circle();
         System.out.println(circle.getName());
 
+        Shape polygon = new Polygon();
+        System.out.println(polygon.getName());
+
     }
 }
